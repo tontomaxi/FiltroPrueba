@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import openpyxl
 import re
 from collections import Counter
 
@@ -93,4 +92,5 @@ if filas_encontradas:
     except Exception as e:
         print(f"Error al guardar el archivo: {e}")
 else:
+
     print("No se encontraron coincidencias para generar el archivo.")
